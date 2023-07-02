@@ -9,6 +9,9 @@ import profile from './images/profile.jpg';
 import linkedin from './images/linkedin.png';
 import github from './images/github.png';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Portfolio: React.FC = () => {
   const urlParams = new URLSearchParams(window.location.search);
@@ -44,6 +47,17 @@ const Portfolio: React.FC = () => {
                       <p className="card-text">
                         A recent Computing graduate from the University of Abertay with a 2:1 BSc Hons Degree, I am passionate about software development and developing a great user experience through effective solutions.
                       </p>
+                      <p>
+                        <FontAwesomeIcon icon={faPhone} />
+                        <span>+44 7484 275 241</span>
+                      </p>
+                      <p>
+                        <FontAwesomeIcon icon={faEnvelope} />
+                        <span> ewan-stewart@outlook.com </span>
+                      </p>
+
+                      <a href="https://ewanstewart.github.io/portfolio/?data=projects" className="btn btn-dark">Check Out My Projects!</a>
+
                     </div>
                   </div>
                 </div>
