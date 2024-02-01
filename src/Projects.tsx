@@ -121,12 +121,12 @@ const Projects = () => {
                   <div className="col-sm-4">
                     <div className="card" id='c'>
                         <div className="card-body">
-                          <h5 className="card-title">FIFA 23 Web App Automation</h5>
+                          <h5 className="card-title">FC24 Web App Automation</h5>
                           <p className="card-text">
-                            This project created a Selenium based script which automated the relisting of FIFA 23 items. In combination with Cron on a Raspberry Pi 3b, 24/7 listing is possible.
+                            This project utilises Selenium based scripts which automate elements of the FC 24 web application.
                           </p>
                           <p>
-                          <a href="https://github.com/EwanStewart/FIFA23-AutoRelist-WebApp" className="btn btn-primary">View Project</a>
+                          <a href="https://github.com/EwanStewart/FIFA24-Automation" className="btn btn-primary">View Project</a>
                           </p>
                           <p>
                           <footer>Python, RPi</footer>
